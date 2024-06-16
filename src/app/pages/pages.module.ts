@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { P404Component } from './components/p404/p404.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { NgxPrintModule } from 'ngx-print';
 
 
 
@@ -21,7 +22,8 @@ import { SignupComponent } from './components/signup/signup.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    NgxPrintModule
   ],
   exports: [
     HomeComponent,
