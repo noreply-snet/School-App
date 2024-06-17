@@ -8,8 +8,6 @@ import { Router } from '@angular/router';
 })
 export class P404Component {
 
-
-
   constructor(private router:Router){
   }
 

@@ -12,6 +12,9 @@
     text-align: center;
     font-weight: bold;
 }
+.header > tr > th{
+    padding: 0px;
+}
 .contact-info {
     text-align: center;
     margin-bottom: 20px;
@@ -35,8 +38,8 @@ th {
 }
 
 .img, .img > img{
-    width: 130px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 .l-row{
     border-left: 1px solid black;
@@ -65,9 +68,6 @@ th {
 .tab-right{
     text-align: right;
 }
-.payment-methods td {
-    padding-top: 10px;
-}
 .total-amount {
     text-align: right;
     font-weight: bold;
@@ -76,7 +76,7 @@ th {
     height: 70px;
 }
 .t-auth{
-    margin: 20px 0px 20px 0;
+    margin: 10px 0px 5px 0;
     border: 3px solid black;
     font-weight: 600;
     font-size: 20px;

@@ -8,6 +8,7 @@ import { P404Component } from './components/p404/p404.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { NgxPrintModule } from 'ngx-print';
+import { MaintainanceComponent } from './components/maintainance/maintainance.component';
 
 
 
@@ -18,7 +19,8 @@ import { NgxPrintModule } from 'ngx-print';
     ReciptsComponent,
     P404Component,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    MaintainanceComponent
   ],
   imports: [
     CommonModule,
