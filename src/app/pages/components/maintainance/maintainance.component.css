@@ -13,6 +13,9 @@
   top: 0;
   left: 0;
   overflow: hidden;
+  --button: #b3b3b3;
+  --button-color: #0a0a0a;
+  --bg: #737373;
 }
 
 .main {
@@ -44,3 +47,21 @@
   text-align: center;
 }
 
+button {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--button);
+  color: var(--button-color);
+  padding: 1rem 4rem;
+  border-radius: 4rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.05rem;
+  z-index: 100;
+  margin-top: 20px;
+}
+
+button:hover{
+  background: var(--bg);
+  color: var(--button);
+  cursor: pointer;
+}
