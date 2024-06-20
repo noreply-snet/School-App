@@ -1,0 +1,67 @@
+
+:host {
+    font-family: Arial, sans-serif;
+    --primary: #F1B914;
+    --ascent: #312CC7;
+    --nutral: #FFFFFF;
+}
+
+.top {
+    background-color: var(--ascent); /* Background color of the header */
+    color: white; /* Text color */
+    padding: 9px 0;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+marquee {
+    font-size: 1.2em; /* Adjust the text size */
+    white-space: nowrap;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--primary);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px; /* Adjust according to your logo size */
+}
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 10px;
+    padding: 5px;
+    border: transparent 2px solid ;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    border: var(--ascent) 2px solid ;
+}
+
+
+.nav ul li a {
+    color: var(--nutral);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li:hover > a {
+    color: var(--ascent);
+}
