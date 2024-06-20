@@ -4,6 +4,10 @@
     --primary: #F1B914;
     --ascent: #312CC7;
     --nutral: #FFFFFF;
+    --mdc-protected-button-container-shape: 3px;
+    --mdc-protected-button-label-text-color: var(--primary);
+    --mdc-protected-button-label-text-size: 1em;
+    --mat-protected-button-horizontal-padding: 16px;
 }
 
 .top {
@@ -63,5 +67,13 @@ marquee {
 }
 
 .nav ul li:hover > a {
+    color: var(--ascent);
+}
+
+.left button:hover{
+    --mdc-protected-button-label-text-color: var(--ascent);
+}
+
+.items{
     color: var(--ascent);
 }

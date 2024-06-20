@@ -1,22 +1,27 @@
-
 <div class="top">
-    <marquee behavior="scroll" direction="left" scrollamount="8">
-        Important Message: School will be closed on Friday due to a public holiday.
-    </marquee>
+  <marquee behavior="scroll" direction="left" scrollamount="8">
+    Important Message: School will be closed on Friday due to a public holiday.
+  </marquee>
 </div>
 
 <div class="container">
-    <div class="logo">
-        <img src="assets/2.png" alt="Mind Educations Logo" />
-      </div>
-      <nav class="nav">
-        <ul>
-          <li><a >HOME</a></li>
-          <li><a >MY COURSES</a></li>
-          <li><a >ABOUT</a></li>
-          <li><a >CONTACT</a></li>
-        </ul>
-      </nav>
+  <div class="logo">
+    <img src="assets/2.png" alt="Mind Educations Logo" />
+  </div>
+  <nav class="nav">
+    <ul>
+      <li><a>HOME</a></li>
+      <li><a>MY COURSES</a></li>
+      <li><a>ABOUT</a></li>
+      <li><a>CONTACT</a></li>
+    </ul>
+  </nav>
+  <div class="left">
+    <button  [matMenuTriggerFor]="buttons" mat-raised-button>Menu</button>
+    <mat-menu #buttons="matMenu">
+      <button class="items" routerLink="voucher" mat-menu-item>Vouchers</button>
+      <button class="items" routerLink="recipts" mat-menu-item>Recipts</button>
+    </mat-menu>
+
+  </div>
 </div>
-
-

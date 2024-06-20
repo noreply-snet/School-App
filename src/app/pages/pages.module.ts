@@ -10,8 +10,8 @@ import { SignupComponent } from './components/signup/signup.component';
 import { NgxPrintModule } from 'ngx-print';
 import { MaintainanceComponent } from './components/maintainance/maintainance.component';
 import { HeaderComponent } from './components/header/header.component';
-
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,9 @@ import { HeaderComponent } from './components/header/header.component';
   imports: [
     CommonModule,
     RouterModule,
-    NgxPrintModule
+    NgxPrintModule,
+    MatButtonModule,
+    MatMenuModule,
   ],
   exports: [
     HomeComponent,
