@@ -1,2 +1,10 @@
-<p>recipts works!</p>
-<button mat-raised-button color="wearn" routerLink="/home">Back</button>
+
+<div class="wraper" id="print-Vouchers">
+   <app-voucher [title]="vname"></app-voucher>
+</div>
+
+
+<div class="out">
+    <button mat-raised-button [useExistingCss]="true" [openNewTab]="true" printSectionId="print-Vouchers" ngxPrint >Print Here</button>
+    <button mat-raised-button color="wearn" routerLink="/home">Back</button>
+</div>

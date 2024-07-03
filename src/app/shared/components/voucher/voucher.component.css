@@ -1,0 +1,96 @@
+
+.voucher {
+    width: 800px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    font-weight: bold;
+}
+.header > tr > th{
+    padding: 0px;
+}
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border: 2px  solid black;
+    border-bottom: none;
+    border-collapse: collapse;
+}
+.l-table{
+    border-bottom:  2px solid black;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.img, .img > img{
+    width: 100px;
+    height: 100px;
+}
+.l-row{
+    border-left: 1px solid black;
+}
+.t1 > th{
+    width: 100px;
+}
+.t1 > td {
+    width: 200px;
+}
+.t2-h{
+    width: 180px;
+}
+.t2-c{
+    text-align: center;
+}
+.t3-sl{
+    width: 100px;
+}
+.t3-amm{
+    width: 200px;
+}
+.tab-center{
+    text-align: center;
+}
+.tab-right{
+    text-align: right;
+}
+.total-amount {
+    text-align: right;
+    font-weight: bold;
+}
+.sig{
+    height: 70px;
+}
+.t-auth{
+    margin: 10px 0px 5px 0;
+    border: 3px solid black;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.amount-in-words, .authorize-section {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.authorize-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.out {
+    margin: 100px;
+}

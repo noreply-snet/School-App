@@ -12,6 +12,7 @@ import { MaintainanceComponent } from './components/maintainance/maintainance.co
 import { HeaderComponent } from './components/header/header.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -30,12 +31,11 @@ import {MatMenuModule} from '@angular/material/menu';
     NgxPrintModule,
     MatButtonModule,
     MatMenuModule,
+    SharedModule
   ],
   exports: [
     HomeComponent,
     P404Component,
-    // VouchersComponent,
-    // ReciptsComponent
   ]
 })
 export class PagesModule { }
