@@ -14,6 +14,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatMenuModule} from '@angular/material/menu';
 import { SharedModule } from '../shared/shared.module';
 
+import { CarouselModule } from 'primeng/carousel';
+import { ButtonModule } from 'primeng/button';
+import { TagModule } from 'primeng/tag';
+import { ProductsService } from './services/products.service';
+import { ImportsModule } from '../core/Import/importModules';
+
 @NgModule({
   declarations: [
     HomeComponent,
@@ -31,11 +37,18 @@ import { SharedModule } from '../shared/shared.module';
     NgxPrintModule,
     MatButtonModule,
     MatMenuModule,
-    SharedModule
+    SharedModule,
+    CarouselModule,
+    ButtonModule,
+    TagModule,
+    ImportsModule
   ],
   exports: [
     HomeComponent,
     P404Component,
+  ],
+  providers:[
+   ProductsService
   ]
 })
 export class PagesModule { }

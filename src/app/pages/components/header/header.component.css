@@ -42,7 +42,11 @@ marquee {
     height: 60px; /* Adjust according to your logo size */
 }
 
-
+.nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .nav ul {
     list-style: none;
     display: flex;
